@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/stackybloxmain"
+    android:gravity="center"
+    
+         >
+    
+    
+    <Button
+     android:layout_marginTop="230dp"
+     android:padding="20dp"
+    android:id="@+id/start"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Start"
+    android:background="@drawable/startbutton"  />
+    <Button
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+    android:id="@+id/settings"
+     android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Settings"
+    android:background="@drawable/settingsbutton"  />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+    android:id="@+id/extras"
+     android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Extras"
+    android:background="@drawable/extrasbutton"  />
+
+</LinearLayout>
